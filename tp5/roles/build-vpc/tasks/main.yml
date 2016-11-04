@@ -7,8 +7,8 @@
     region:           "{{ vpc_region }}"
     state:            "present"
     tags:
-      project": "{{ project_name }}"
-      environment": "{{ env_name }}"
+      project: "{{ project_name }}"
+      environment: "{{ env_name }}"
   register: my_vpc
 
 - name:               Set VPC ID in variable
